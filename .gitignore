@@ -1,0 +1,41 @@
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+tests/.tmp/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Xiaohongshu local session state
+session/
+!session/.gitkeep
+
+# Generated crawler outputs
+data/
+!data/.gitkeep
+
+# Browser and Playwright artifacts
+playwright-report/
+test-results/
+*.har
+*.webm
+
+# Local editor and OS files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
